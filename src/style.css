@@ -1,0 +1,55 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@font-face {
+    font-family: "Segoe UI";
+    src: url("../webfonts/Segoe\ UI.woff");
+}
+
+body {
+    font-family: "Segoe UI";
+}
+
+/* group utilities */
+
+@layer components{
+    .nav-menu{
+        @apply   uppercase  
+                 py-[10px] 
+                 border-2 
+                 border-transparent 
+                 transition
+                 duration-1000 
+                 ease-in-out 
+                 hover:border-2 
+                 hover:border-primary 
+                 text-sm font-bold
+    }
+    
+    .header-menu{
+        @apply nav-menu
+            text-white
+                px-[25px]
+    }
+    
+    .portfolio-menu{
+        @apply nav-menu
+              text-secondary
+                px-[15px]
+    }
+    
+    .section-heading{
+        @apply text-3xl 
+               mb-10
+               uppercase 
+    }
+    
+    .article-heading{
+        @apply  mt-6 
+                mb-5 
+                uppercase 
+                text-2xl;
+    }
+    
+}
