@@ -1,5 +1,5 @@
 {
-  "name": "practice",
+  "name": "Portfolio",
   "version": "1.0.0",
   "description": "1. npm init -y\r 2. npm i -D tailwindcss\r 3. Install tailwindcss intellisense vs code plugin\r 4. npx tailwindcss init\r 5. create two folder with the name \"src\" and \"output\".\r 6. create src/style.css file\r 7. into the style.css file write the following code\r \t-@tailwind base;\r \t-@tailwind components;\r \t-@tailwind utilities;\r 8. create .vscode/settings.json file\r 9. in settings.json file write the following code\r \t{\r \t\t\"css.validate\": false,\r \t\t\"tailwindCSS.emmetCompletions\": true\r \t}\r 10. in package.json file write the following code into the scripts\r \t-\"build\" : \"tailwindcss -i ./src/input.css -o ./dist/output.css --watch\"\r 11. add the compiled css file to the head\r \t<link href=\"/dist/output.css\" rel=\"stylesheet\">\r 12. npm run build",
   "main": "index.js",

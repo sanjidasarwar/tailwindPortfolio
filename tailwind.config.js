@@ -3,7 +3,7 @@ module.exports = {
   theme: {
     extend: {
       colors: {
-        'body': '#17171F',
+        'body': '#202020',
         'selected-text': '#A3A3FF',
         'theme': '#3F3FFF',
         'nav': '#404053',
@@ -16,7 +16,7 @@ module.exports = {
         'poppins': ["'Poppins'", 'sans-serif']
       },
       backgroundImage: {
-        'hero-pattern': "url('/img/man.png')",
+        'hero-pattern': "url('../img/women.jpg')",
       }
     },
   },
